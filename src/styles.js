@@ -8,8 +8,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-`
-
+`;
 
 export const Content = styled.div`
     background-color: #FFFFFF;
@@ -17,16 +16,8 @@ export const Content = styled.div`
 `
 
 export const Row = styled.div`
-    display:flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
 `
-
-export const Column = styled.div`
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-`
-

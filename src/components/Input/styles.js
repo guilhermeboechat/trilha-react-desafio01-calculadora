@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InputContainer = styled.div`
     width: 100%;
     height: 75px;
-    background-color: #AAAAFF;
+    background-color: #AAFFAA;
 
     display: flex;
     align-items: center;
@@ -11,13 +11,13 @@ export const InputContainer = styled.div`
 
     font-size: 24px;
     font-family: 'Roboto';
-    
-
-    input {
+    input{
         width: 100%;
         height: 75px;
-        background-color: #AAAAFF;
+        background-color: darkgrey;
         border: 0;
+        align: right;
+
         display: flex;
         flex-direction: column;
         align-items: flex-end;
